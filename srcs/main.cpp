@@ -11,7 +11,7 @@ int main(int c, char **v)
   }
   Application *app = nullptr;
   try{
-    app = new Application("scop", 1920, 1080);
+    app = new Application("scop", 3840, 2160);
     app->bindObjectByName(v[1]);
     app->run();
     delete app;
